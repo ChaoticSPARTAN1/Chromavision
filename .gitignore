@@ -1,0 +1,25 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+__pycache__/
+*.pyc
+
+# Anything personal (normally in %LOCALAPPDATA%\Chromavision, never here)
+/private/
+jellyfin-connection.txt
+*.local.txt
+.env
+.env.*
+
+# Channel lists, playlists and guide files stay on your own machines
+*.m3u
+*.m3u8
+*.xmltv
+*.xml.gz
+
+# Backups, records and logs of the tools
+before-*.json
+check-*.json
+state.json
+*.log
+
+# Temporary print page of the PDF guide (build_docs_pdf.py deletes it)
+/.guide-print.html

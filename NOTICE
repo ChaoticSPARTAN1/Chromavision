@@ -1,0 +1,26 @@
+Chromavision
+Copyright (C) 2026 ChaoticSPARTAN1
+
+Chromavision is free software: you can redistribute it and/or modify it under the terms of the GNU General
+Public License as published by the Free Software Foundation, either version 3 of the License, or (at your
+option) any later version, with the additional terms in ADDITIONAL-TERMS.md (GPLv3 section 7).
+It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See LICENSE.
+
+Chromavision is an independent project, not affiliated with ModRetro, Analogue, the Jellyfin project, iptv-org
+or the US National Weather Service, and not made, endorsed or supported by any of them. Use it at your own risk.
+The weather is shown for fun: never use it for safety decisions.
+
+This repository hosts no video, no stream addresses and no channel lists. Every stream belongs to its
+broadcaster. The tools read public data at run time:
+- iptv-org's open data (https://github.com/iptv-org/api), The Unlicense;
+- the US National Weather Service API (https://api.weather.gov), public domain (read by the console).
+
+This repository also contains, under their own licences:
+- docs/fonts/: Press Start 2P (CodeMan38) and Silkscreen (The Silkscreen Project Authors), SIL Open Font
+  License 1.1 (LICENSES/OFL-1.1-*.txt), unmodified.
+
+Details: THIRD-PARTY-NOTICES.md and docs/Credits-and-licences.md.
+
+ModRetro and Chromatic are trademarks of ModRetro, Inc. Analogue and Pocket are trademarks of Analogue.
+Jellyfin is a trademark of its owners. Channel names and logos belong to their owners.

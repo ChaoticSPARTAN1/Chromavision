@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Optional: saved Jellyfin settings for the read-only commands (check, status). Easier: let the tools ask with
+# --ask-admin, which saves nothing. If you already set up Chromatic Manager's Jellyfin settings, the tools read
+# those (%LOCALAPPDATA%\Jellymatic\jellyfin-connection.txt) and you need no file here.
+# To write one by hand, copy this file to %LOCALAPPDATA%\Chromavision\jellyfin-connection.txt and fill it in.
+# Values are literal text after '='. Do not quote them or add inline comments. Never commit or share it.
+server_url=http://your-server:8096
+access_token=YOUR_TOKEN
+# Or remove access_token and set username=... and password=... (a token is better: it can be revoked alone).
