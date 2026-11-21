@@ -125,6 +125,7 @@ Markdown pages by `scripts/build_docs_html.py` and `scripts/build_docs_pdf.py`.
 tools/                  PC tools: make_channel_list.py, livetv_tuner.py, jellyfin_admin.py, tests/
 docs/                   the guide (Markdown), pictures, fonts, GitHub Pages copy, PDF guide
 art/                    the TV row's icons (original pixel art)
+media/                  promo videos and a still picture
 scripts/                documentation builders and their test
 ```
 
